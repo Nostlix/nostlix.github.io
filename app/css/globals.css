@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F5F7FD;
+  --foreground: #171717;
+
+  --color-main: #6F00DE;
+  --color-secondary: #496AFF;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-jockey-one);
+}
+
+.title {
+  background-image: linear-gradient(
+    90deg,
+    var(--color-secondary),
+    var(--color-main),
+    var(--color-main)
+  );
+  color: transparent;
+  background-clip: text;
+  font-size: 4em;
+  line-height: 1em;
+}
+
+.subtitle {
+  color: #313131;
+  font-size: 2.5em;
+  line-height: 1em;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-jockey-one), Arial, Helvetica, sans-serif;
+}
+
+main {
+  padding: 5vh 5vw;
+}
