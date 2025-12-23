@@ -1,0 +1,8 @@
+.hero {
+  height: calc(100dvh - 10dvh);
+}
+
+.hero-cols {
+    display: grid;
+    grid-template-columns: minmax(32vw, 415px) 1fr;
+}

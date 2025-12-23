@@ -40,5 +40,9 @@ body {
 }
 
 main {
-  padding: 5vh 5vw;
+  padding: 5dvh 5dvw;
+}
+
+h3 {
+  font-size: 1.5em;
 }
