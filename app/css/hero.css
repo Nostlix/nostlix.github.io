@@ -1,5 +1,5 @@
 .hero {
-  height: calc(100dvh - 10dvh);
+  height: calc(100dvh - 5dvh);
 }
 
 .hero-cols {

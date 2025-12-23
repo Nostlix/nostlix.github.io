@@ -13,7 +13,7 @@ export default function Hero()
                         <h1 className="title">Valentin DUNON</h1>
                         <h2 className="subtitle">Epitech Student</h2>
                     </div>
-                    <h3 className="py-10">
+                    <h3 className="text-[1.5em] py-10">
                         A future expert involved inside new technologies industry.
                     </h3>
                     <div className="flex gap-5 py-4">
