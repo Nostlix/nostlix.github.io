@@ -28,8 +28,8 @@ export default function Social({
             className=""
             src="/logo_github.png"
             alt="Github logo"
-            width={40}
-            height={40}>
+            width={25}
+            height={25}>
         </Image>
     </a>
   );

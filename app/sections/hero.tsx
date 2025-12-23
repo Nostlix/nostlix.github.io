@@ -31,7 +31,7 @@ export default function Hero()
                     </div>
                 </div>
             </div>
-            <div className="flex gap-5">
+            <div className="flex gap-5 pb-4">
                 <Button variant="primary">Discover Me</Button>
                 <Button variant="tertiary">Upload CV</Button>
             </div>
