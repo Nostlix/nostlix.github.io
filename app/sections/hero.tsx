@@ -44,6 +44,22 @@ export default function Hero()
                     />
                 </div>
             </div>
+            <a
+            href="#about"
+            className="block absolute top-[100dvhh] left-1/2 ml-[-12.5px]
+            mb-10 self-center animate-bounce bg-(image:--gradient-main) p-px rounded-[100%]">
+                <div className="bg-background p-1 rounded-[100%]">
+                    <Image
+                        className="bg-(--gradient-main)"
+                        src="/icons/arrow.svg"
+                        alt="Scroll down button"
+                        width={25}
+                        height={25}
+                        sizes="100%"
+                        priority
+                    />
+                </div>
+            </a>
         </header>
     )
 }
