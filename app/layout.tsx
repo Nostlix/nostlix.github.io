@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import { Jockey_One } from "next/font/google";
+import Footer from "./sections/footer";
 import "./css/globals.css";
 
 const jockerOne = Jockey_One({
@@ -34,6 +35,7 @@ export default function RootLayout({
           />
         </a>
         {children}
+        <Footer/>
       </body>
     </html>
   );
