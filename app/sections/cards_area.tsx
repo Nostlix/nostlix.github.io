@@ -18,7 +18,7 @@ export default function CardsArea({
     return (
         <section id={id} className="pt-10">
             <SectionTitle title={title}/>
-            <h3 className="text-gray-600 pb-10 pt-5 text-center">{subtitle}</h3>
+            <h3 className="text-gray-600 mb-10 mt-5 text-center">{subtitle}</h3>
             <div className="grid grid-cols-3 gap-15">
                 {children}
             </div>

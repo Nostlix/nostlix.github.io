@@ -3,7 +3,7 @@ export default function SectionTitle({
     centered = true
 }: { title: string, centered?: boolean })
 {
-    let classNames: string = "text-3xl";
+    let classNames: string = "text-3xl mb-5";
 
     if (centered)
         classNames += " text-center";
