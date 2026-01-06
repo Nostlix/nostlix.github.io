@@ -26,7 +26,7 @@ export default function Hero()
                         <Social social="Email" link="mailto:vdunon91@gmail.com"/>
                     </div>
                 </div>
-                <div className="flex content-center">
+                <div className="hidden md:flex content-center">
                     <Image
                         className="-ml-5 max-h-6/10 self-center"
                         src="/images/hero_image.svg"

@@ -42,6 +42,7 @@ export default function Home() {
       <CardsArea
         title="Skills"
         subtitle="Discover what I've learned to use throughout my journey"
+        colsClass="sm:grid-cols-3"
       >
         <Card
           title="Programming"

@@ -7,7 +7,7 @@ export default function Projects()
     return (
         <section className="relative -mx-[5dvw] bg-transparent-main my-10 py-10">
             <SectionTitle title="Projects"/>
-            <div className="grid grid-cols-2 px-10 gap-5">
+            <div className="grid sm:grid-cols-2 px-10 gap-5">
                 <div>
                     <SectionTitle title="Social Media - Outfit"/>
                     <p>

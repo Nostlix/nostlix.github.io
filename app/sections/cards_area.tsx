@@ -6,20 +6,22 @@ interface CardsAreaParams {
     title: string;
     subtitle: string;
     id?: string;
+    colsClass?: string
 }
 
 export default function CardsArea({
     children,
     title,
     subtitle,
-    id
+    id,
+    colsClass = "sm:grid-cols-3"
 }: CardsAreaParams)
 {
     return (
         <section id={id} className="pt-10">
             <SectionTitle title={title}/>
             <h3 className="text-gray-600 mb-10 mt-5 text-center">{subtitle}</h3>
-            <div className="grid grid-cols-3 gap-15">
+            <div className={`grid ${colsClass} gap-5 sm:gap-15`}>
                 {children}
             </div>
         </section>

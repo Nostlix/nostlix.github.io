@@ -8,8 +8,8 @@ export default function Interested()
     return (
         <section className="pt-10">
             <SectionTitle title="Interested ?"/>
-            <div className="grid grid-cols-2">
-                <div className="flex flex-col justify-evenly gap-5 items-center">
+            <div className="grid sm:grid-cols-2 gap-3">
+                <div className="flex sm:flex-col justify-evenly gap-5 items-center">
                     <div className="w-max">
                         <SectionTitle title="Contact Me :" centered={false}/>
                         <div className="flex gap-5">
@@ -25,7 +25,7 @@ export default function Interested()
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="flex">
                     <Image
                     className="right-5 top-5"
                     src="/images/footer_image.svg"
