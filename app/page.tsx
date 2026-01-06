@@ -2,6 +2,7 @@ import Hero from "./sections/hero"
 import CardsArea from "./sections/cards_area";
 import Card from "./components/card";
 import Interested from "./sections/interested";
+import Projects from "./sections/projects";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
           imgWidth={40}
         />
       </CardsArea>
+      <Projects/>
       <CardsArea
         title="Skills"
         subtitle="Discover what I've learned to use throughout my journey"

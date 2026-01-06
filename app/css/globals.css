@@ -21,6 +21,22 @@
   --font-sans: var(--font-jockey-one);
 }
 
+.bg-transparent-main {
+  position: relative;
+}
+
+.bg-transparent-main::after {
+  content: '';
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--gradient-main);
+  opacity: 0.09;
+  z-index: -1;
+}
+
 .text-main, .title {
   background-image: var(--gradient-main);
   color: transparent;
