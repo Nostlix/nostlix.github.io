@@ -45,7 +45,7 @@ export default function Hero()
                 </div>
             </div>
             <Image
-                className="absolute top-[50dvh] -translate-y-1/2 opacity-3"
+                className="absolute -z-1 top-[50dvh] -translate-y-1/2 opacity-3"
                 src="/icons/logo_portfolio.png"
                 alt="Logo"
                 width={512}
