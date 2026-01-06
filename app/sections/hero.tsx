@@ -44,6 +44,15 @@ export default function Hero()
                     />
                 </div>
             </div>
+            <Image
+                className="absolute top-[50dvh] -translate-y-1/2 opacity-3"
+                src="/icons/logo_portfolio.png"
+                alt="Logo"
+                width={512}
+                height={512}
+                sizes="100%"
+                priority
+            />
             <a
             href="#about"
             className="block absolute top-[100dvhh] left-1/2 ml-[-12.5px]
