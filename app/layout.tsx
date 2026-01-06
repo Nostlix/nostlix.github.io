@@ -11,7 +11,7 @@ const jockerOne = Jockey_One({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio - DUNON Valentin",
+  title: "DUNON Valentin",
   description: "Discover who am I, including my projects",
   icons: "/icons/logo_portfolio.png"
 };
