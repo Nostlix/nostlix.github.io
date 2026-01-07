@@ -11,9 +11,35 @@ const jockerOne = Jockey_One({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio - DUNON Valentin",
+  title: "Valentin Dunon - Portfolio",
+  applicationName: "Valentin Dunon",
   description: "Discover who am I, including my projects",
-  icons: "/icons/logo_portfolio.png"
+  icons: "/icons/logo_portfolio.png",
+  referrer: 'origin-when-cross-origin',
+  keywords: ['Valentin', 'Dunon', 'Stage', 'Portfolio', 'Github'],
+  authors: [{ name: 'Valentin Dunon' }],
+  creator: 'Valentin Dunon',
+  publisher: 'Valentin Dunon',
+  openGraph: {
+    title: 'Portfolio - Valentin Dunon',
+    description: 'Discover who am I, including my projects',
+    url: 'https://nostlix.github.io',
+    siteName: 'Portfolio - Valentin Dunon',
+    locale: 'en_US'
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({
